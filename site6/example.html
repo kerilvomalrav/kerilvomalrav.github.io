@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+    <title>Калькулятор</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+<form>
+  <hr>
+  Введите кол-во товара:
+        <input type="text" id="num" placeholder="Количество" /><br />
+        Выберите товар:
+        <select id="type">
+          <option value="1" selected>Игрушка</option>
+          <option value="2">Брелок</option>
+          <option value="3">Чехол</option></select
+        ><br />
+        <div id="radios">
+          <input type="radio" name="option" value="50" />ЧБ
+          <input type="radio" name="option" value="100" />Цветной <br />
+        </div>
+        <div id="checkbox">
+          <input type="checkbox" id="checkbox-check" value="200" /> Свой дизайн
+        </div>
+  <hr>
+
+  Итоговая стоимость: <input type="text" id="total" disabled />
+</form>
+	<script src="script.js"></script>
+</body>
+</html>
